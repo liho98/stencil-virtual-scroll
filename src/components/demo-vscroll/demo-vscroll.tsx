@@ -1,4 +1,4 @@
-import { Component, ComponentInterface, Host, h, State } from '@stencil/core';
+import { Component, ComponentInterface, h, State } from '@stencil/core';
 
 @Component({
   tag: 'demo-vscroll',

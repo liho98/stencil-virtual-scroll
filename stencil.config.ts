@@ -24,7 +24,9 @@ export const config: Config = {
     },
     {
       type: 'www',
-      serviceWorker: null // disable service workers
+      serviceWorker: null, // disable service workers,
+      empty: false,
+      baseUrl: 'https://liho98.github.io/stencil-virtual-scroll'
     }
   ],
   plugins: [
